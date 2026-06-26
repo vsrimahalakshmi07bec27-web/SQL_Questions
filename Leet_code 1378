@@ -1,0 +1,6 @@
+select q.unique_id,p.name
+from Employees p   
+left join EmployeeUNI q
+ on p.id =q.id
+
+
